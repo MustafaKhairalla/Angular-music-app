@@ -1,0 +1,22 @@
+section{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    padding: 2rem;
+    min-width: 100%;
+}
+
+.top{
+    display: flex;
+    font-size: large;
+    justify-content: space-around;
+}
+
+button{
+    margin: 3rem;
+    font-size: large;
+}
+
+.table-look{
+    width: 100%;
+}
