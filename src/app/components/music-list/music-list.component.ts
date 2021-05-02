@@ -24,6 +24,7 @@ export class MusicListComponent implements OnInit {
   public getAllMusic() {
     let resp = this.service.getMusic();
     resp.subscribe(list => this.dataSource.data = list as MusicList[])
+    resp.subscribe(data => { console.log(JSON.stringify(data)) })
   }
 
 }
