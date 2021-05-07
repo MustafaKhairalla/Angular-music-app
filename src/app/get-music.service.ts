@@ -9,6 +9,8 @@ export class GetMusicService {
   constructor(private http: HttpClient) { }
 
   public getMusic() {
-    return this.http.get("http://localhost:3001/api/lists")
+    //console.log("this is the music api");
+    let data = this.http.get("api/")
+    return data;
   }
 }
